@@ -1,0 +1,125 @@
+#nav_bar{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+li{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid red;
+}
+
+li:hover{
+    padding: 30px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black;
+    background-color: rgb(240, 227, 227);
+    transition: 300ms;
+}
+
+.logo{
+    position: relative;
+    right: 300px;
+    top: 20px;
+    font-size: 55px;
+}
+
+sap{
+    color: red;
+}
+/* 
+#img-div{
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    width: 800px;
+    height: 600px;
+    right: -200px;
+    padding: 50px;
+    margin: 20px;
+} */
+
+/* #img-div{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+} */
+
+#img-div{
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.text_rk{
+    text-align: center;
+}
+#title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.tributes_of_rk, #tribute-info, #title, #tribute_more_info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tributes{
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    width: 800px;
+    height: 900px;
+    right: -200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.tributes_of_rk{
+    text-align: center;
+    border: solid black;
+    padding: 10px;
+}
+
+.tributes_of_rk:hover{
+    text-align: center;
+    border: solid black;
+    padding: 12px;
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+#tribute_more_info{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    border: solid black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
